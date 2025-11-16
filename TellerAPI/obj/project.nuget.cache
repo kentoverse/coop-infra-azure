@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8WGxIYU6Nkg=",
+  "dgSpecHash": "o1VsFMQeXUY=",
   "success": true,
-  "projectFilePath": "/Users/mocavada/@Code/MarcCavadca-Assignment-CA-PFRND/CAVADA-MARC-PROJECT-CA_PR/TellerAPI/TellerAPI.csproj",
+  "projectFilePath": "/Users/mocavada/@Code/coop-repo/TellerAPI/TellerAPI.csproj",
   "expectedPackageFiles": [
     "/Users/mocavada/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/mocavada/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
@@ -82,7 +82,10 @@
     "/Users/mocavada/.nuget/packages/system.text.json/9.0.10/system.text.json.9.0.10.nupkg.sha512",
     "/Users/mocavada/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
     "/Users/mocavada/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/mocavada/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
+    "/Users/mocavada/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
+    "/Users/mocavada/.nuget/packages/microsoft.netcore.app.ref/9.0.11/microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "/Users/mocavada/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "/Users/mocavada/.nuget/packages/microsoft.netcore.app.host.osx-arm64/9.0.11/microsoft.netcore.app.host.osx-arm64.9.0.11.nupkg.sha512"
   ],
   "logs": []
 }

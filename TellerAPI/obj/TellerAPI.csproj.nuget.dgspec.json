@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mocavada/@Code/MarcCavadca-Assignment-CA-PFRND/CAVADA-MARC-PROJECT-CA_PR/TellerAPI/TellerAPI.csproj": {}
+    "/Users/mocavada/@Code/coop-repo/TellerAPI/TellerAPI.csproj": {}
   },
   "projects": {
-    "/Users/mocavada/@Code/MarcCavadca-Assignment-CA-PFRND/CAVADA-MARC-PROJECT-CA_PR/TellerAPI/TellerAPI.csproj": {
+    "/Users/mocavada/@Code/coop-repo/TellerAPI/TellerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mocavada/@Code/MarcCavadca-Assignment-CA-PFRND/CAVADA-MARC-PROJECT-CA_PR/TellerAPI/TellerAPI.csproj",
+        "projectUniqueName": "/Users/mocavada/@Code/coop-repo/TellerAPI/TellerAPI.csproj",
         "projectName": "TellerAPI",
-        "projectPath": "/Users/mocavada/@Code/MarcCavadca-Assignment-CA-PFRND/CAVADA-MARC-PROJECT-CA_PR/TellerAPI/TellerAPI.csproj",
+        "projectPath": "/Users/mocavada/@Code/coop-repo/TellerAPI/TellerAPI.csproj",
         "packagesPath": "/Users/mocavada/.nuget/packages/",
-        "outputPath": "/Users/mocavada/@Code/MarcCavadca-Assignment-CA-PFRND/CAVADA-MARC-PROJECT-CA_PR/TellerAPI/obj/",
+        "outputPath": "/Users/mocavada/@Code/coop-repo/TellerAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mocavada/.nuget/NuGet/NuGet.Config"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -70,12 +70,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
