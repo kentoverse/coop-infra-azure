@@ -91,8 +91,8 @@ classDiagram
 flowchart TD
     A[Start] --> B[Prompt user for n]
     B --> C[Compute F(n)]
-    C --> D[Apply ++ operator → F(n+1)]
-    D --> E[Apply +m operator → F(n+m)]
+    C --> D[Apply ++ operator to get F(n+1)]
+    D --> E[Apply +m operator to get F(n+m)]
     E --> F[Print results]
     F --> G[End]
 ```
@@ -112,6 +112,7 @@ flowchart TD
     F --> G[Print success message]
     G --> H[End]
 ```
+
 
 
 
