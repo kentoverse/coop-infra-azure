@@ -36,8 +36,8 @@ flowchart TD
     C -->|sortbyfirstname| K[Sort by FirstName and print list]
     C -->|exit| L[End]
 ```
-⸻
 
+⸻
 ## Q2 – Customer LINQ Mini App
 
 ### Class Diagram
@@ -68,8 +68,8 @@ flowchart TD
     F --> G[Print price]
     G --> H[End]
 ```
-⸻
 
+⸻
 ## Q3 – Fibonacci with Operator Overloading
 
 ### Class Diagram
@@ -96,8 +96,8 @@ flowchart TD
     E --> F[Print results]
     F --> G[End]
 ```
-⸻
 
+⸻
 ## Q4 – File Copy
 
 ### Flowchart
@@ -112,6 +112,7 @@ flowchart TD
     F --> G[Print success message]
     G --> H[End]
 ```
+
 
 
 
