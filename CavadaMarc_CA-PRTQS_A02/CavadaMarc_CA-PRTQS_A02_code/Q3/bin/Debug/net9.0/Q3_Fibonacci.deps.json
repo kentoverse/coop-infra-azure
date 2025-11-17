@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Q3_Fibonacci/1.0.0": {
+        "runtime": {
+          "Q3_Fibonacci.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Q3_Fibonacci/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

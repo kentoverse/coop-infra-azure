@@ -1,0 +1,15 @@
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/bin/Debug/net9.0/Q3_Fibonacci
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/bin/Debug/net9.0/Q3_Fibonacci.deps.json
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/bin/Debug/net9.0/Q3_Fibonacci.runtimeconfig.json
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/bin/Debug/net9.0/Q3_Fibonacci.dll
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/bin/Debug/net9.0/Q3_Fibonacci.pdb
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/obj/Debug/net9.0/Q3_Fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/obj/Debug/net9.0/Q3_Fibonacci.AssemblyInfoInputs.cache
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/obj/Debug/net9.0/Q3_Fibonacci.AssemblyInfo.cs
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/obj/Debug/net9.0/Q3_Fibonacci.csproj.CoreCompileInputs.cache
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/obj/Debug/net9.0/Q3_Fibonacci.sourcelink.json
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/obj/Debug/net9.0/Q3_Fibonacci.dll
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/obj/Debug/net9.0/refint/Q3_Fibonacci.dll
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/obj/Debug/net9.0/Q3_Fibonacci.pdb
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/obj/Debug/net9.0/Q3_Fibonacci.genruntimeconfig.cache
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q3/obj/Debug/net9.0/ref/Q3_Fibonacci.dll

@@ -1,0 +1,15 @@
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/bin/Debug/net9.0/Q1_Customers
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/bin/Debug/net9.0/Q1_Customers.deps.json
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/bin/Debug/net9.0/Q1_Customers.runtimeconfig.json
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/bin/Debug/net9.0/Q1_Customers.dll
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/bin/Debug/net9.0/Q1_Customers.pdb
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/obj/Debug/net9.0/Q1_Customers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/obj/Debug/net9.0/Q1_Customers.AssemblyInfoInputs.cache
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/obj/Debug/net9.0/Q1_Customers.AssemblyInfo.cs
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/obj/Debug/net9.0/Q1_Customers.csproj.CoreCompileInputs.cache
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/obj/Debug/net9.0/Q1_Customers.sourcelink.json
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/obj/Debug/net9.0/Q1_Customers.dll
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/obj/Debug/net9.0/refint/Q1_Customers.dll
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/obj/Debug/net9.0/Q1_Customers.pdb
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/obj/Debug/net9.0/Q1_Customers.genruntimeconfig.cache
+/Users/mocavada/@Code/coop-repo/CavadaMarc_CA-PRTQS_A02/CavadaMarc_CA-PRTQS_A02_code/Q1/obj/Debug/net9.0/ref/Q1_Customers.dll
