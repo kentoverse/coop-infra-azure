@@ -1,8 +1,8 @@
 
-⸻
-
 # Assignment 2 – Design Documentation
+by Marc Cavada
 
+⸻
 ⸻
 
 ## Q1 – Customer LINQ Mini App
@@ -36,102 +36,82 @@ flowchart TD
     C -->|sortbyfirstname| K[Sort by FirstName and print list]
     C -->|exit| L[End]
 ```
-
-
 ⸻
 
-Q2 – Items Join (LINQ)
+## Q2 – Customer LINQ Mini App
 
-Data Structure
+### Class Diagram
 
-ItemName
-	•	Properties:
-	•	Id : int
-	•	Iname : string
-	•	SNo : int
+```mermaid
+classDiagram
+    class ItemName {
+        +int Id
+        +string Iname
+        +int SNo
+    }
 
-ItemPrice
-	•	Properties:
-	•	Id : int
-	•	Price : double
+    class ItemPrice {
+        +int Id
+        +double Price
+    }
+```
 
-Flowchart
+### Flowchart
 
-Start
-  |
-Load ItemName and ItemPrice lists
-  |
-Join lists on Id
-  |
-Print all items with prices
-  |
-Prompt user to enter item name
-  |
-Lookup price and print
-  |
-End
-
-
+```mermaid
+flowchart TD
+    A[Start] --> B[Load ItemName and ItemPrice lists]
+    B --> C[Join lists on Id]
+    C --> D[Print all items with prices]
+    D --> E[Prompt user to enter item name]
+    E --> F[Lookup price for entered item name]
+    F --> G[Print price]
+    G --> H[End]
+```
 ⸻
 
-Q3 – Fibonacci + Operator Overloading
+## Q3 – Fibonacci with Operator Overloading
 
-Class Diagram
+### Class Diagram
 
-Fibonacci
-	•	Properties:
-	•	Position : int
-	•	Value : int
-	•	Methods / Operators:
-	•	ComputeValue() : int
-	•	++() : Fibonacci   (next Fibonacci)
-	•	+(int m) : Fibonacci   (advance m positions)
+```mermaid
+classDiagram
+    class Fibonacci {
+        +int Position
+        +int Value
+        +ComputeValue() : int
+        +++() : Fibonacci
+        ++(int m) : Fibonacci
+    }
+```
 
-Flowchart
+### Flowchart
 
-Start
-  |
-Prompt user for n
-  |
-Compute F(n)
-  |
-Apply ++ operator -> F(n+1)
-  |
-Apply +m operator -> F(n+m)
-  |
-Print results
-  |
-End
-
-
+```mermaid
+flowchart TD
+    A[Start] --> B[Prompt user for n]
+    B --> C[Compute F(n)]
+    C --> D[Apply ++ operator → F(n+1)]
+    D --> E[Apply +m operator → F(n+m)]
+    E --> F[Print results]
+    F --> G[End]
+```
 ⸻
 
-Q4 – File Copy
+## Q4 – File Copy
 
-Flowchart
+### Flowchart
 
-Start
-  |
-Prompt for source file path
-  |
-Check if file exists?
-  |--- No ---> Print error, End
-  |--- Yes ---> Prompt for destination file path
-                   |
-                   Copy file content
-                   |
-                   Print success message
-                   |
-End
+```mermaid
+flowchart TD
+    A[Start] --> B[Prompt for source file path]
+    B --> C{Does source file exist?}
+    C -->|No| D[Print error message and End]
+    C -->|Yes| E[Prompt for destination file path]
+    E --> F[Copy contents from source to destination]
+    F --> G[Print success message]
+    G --> H[End]
+```
 
-
-⸻
-
-Notes:
-	•	Use this as-is in a Markdown file (Design.md) for your _design folder.
-	•	ASCII diagrams ensure that it will render correctly in any Markdown viewer, even without Mermaid.
-	•	Each Q folder (Q1–Q4) can reference these diagrams in your submission.
-
-⸻
 
 
