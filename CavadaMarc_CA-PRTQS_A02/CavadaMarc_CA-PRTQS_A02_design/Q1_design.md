@@ -1,22 +1,26 @@
+
 ⸻
 
-Assignment 2 – Design Documentation (Markdown)
+Assignment 2 – Design Documentation
+
+⸻
 
 Q1 – Customer LINQ Mini App
 
 Class Diagram
 
-classDiagram
-    class Customer {
-        int Id
-        string FirstName
-        string LastName
-        DateTime DateOfBirth
-        +ToString() : string
-    }
+Customer
+	•	Properties:
+	•	Id : int
+	•	FirstName : string
+	•	LastName : string
+	•	DateOfBirth : DateTime
+	•	Methods:
+	•	ToString() : string
 
 Flowchart
 
+```mermaid
 flowchart TD
     A[Start] --> B[Display commands: list, findbyid, findbyfirstname, sortbyfirstname, exit]
     B --> C[User enters command]
@@ -29,6 +33,7 @@ flowchart TD
     I --> J[Print DateOfBirth]
     C -->|sortbyfirstname| K[Sort by FirstName & print list]
     C -->|exit| L[End]
+```
 
 
 ⸻
@@ -37,27 +42,32 @@ Q2 – Items Join (LINQ)
 
 Data Structure
 
-classDiagram
-    class ItemName {
-        int Id
-        string Iname
-        int SNo
-    }
+ItemName
+	•	Properties:
+	•	Id : int
+	•	Iname : string
+	•	SNo : int
 
-    class ItemPrice {
-        int Id
-        double Price
-    }
+ItemPrice
+	•	Properties:
+	•	Id : int
+	•	Price : double
 
 Flowchart
 
-flowchart TD
-    A[Start] --> B[Load ItemName and ItemPrice lists]
-    B --> C[Join lists on Id]
-    C --> D[Print all items with prices]
-    D --> E[Prompt user to enter item name]
-    E --> F[Lookup price and print]
-    F --> G[End]
+Start
+  |
+Load ItemName and ItemPrice lists
+  |
+Join lists on Id
+  |
+Print all items with prices
+  |
+Prompt user to enter item name
+  |
+Lookup price and print
+  |
+End
 
 
 ⸻
@@ -66,24 +76,30 @@ Q3 – Fibonacci + Operator Overloading
 
 Class Diagram
 
-classDiagram
-    class Fibonacci {
-        int Position
-        int Value
-        +ComputeValue() : int
-        +++() : Fibonacci
-        ++(int m) : Fibonacci
-    }
+Fibonacci
+	•	Properties:
+	•	Position : int
+	•	Value : int
+	•	Methods / Operators:
+	•	ComputeValue() : int
+	•	++() : Fibonacci   (next Fibonacci)
+	•	+(int m) : Fibonacci   (advance m positions)
 
 Flowchart
 
-flowchart TD
-    A[Start] --> B[Prompt user for n]
-    B --> C[Compute F(n)]
-    C --> D[Apply ++ operator → F(n+1)]
-    D --> E[Apply +m operator → F(n+m)]
-    E --> F[Print results]
-    F --> G[End]
+Start
+  |
+Prompt user for n
+  |
+Compute F(n)
+  |
+Apply ++ operator -> F(n+1)
+  |
+Apply +m operator -> F(n+m)
+  |
+Print results
+  |
+End
 
 
 ⸻
@@ -92,21 +108,26 @@ Q4 – File Copy
 
 Flowchart
 
-flowchart TD
-    A[Start] --> B[Prompt for source file path]
-    B --> C{File exists?}
-    C -->|No| D[Print error & End]
-    C -->|Yes| E[Prompt for destination file path]
-    E --> F[Copy file content]
-    F --> G[Print success message]
-    G --> H[End]
+Start
+  |
+Prompt for source file path
+  |
+Check if file exists?
+  |--- No ---> Print error, End
+  |--- Yes ---> Prompt for destination file path
+                   |
+                   Copy file content
+                   |
+                   Print success message
+                   |
+End
 
 
 ⸻
 
 Notes:
-	•	Use mermaid blocks if your Markdown viewer supports it (like VS Code or GitHub).
-	•	You can also export these diagrams as PNGs for your design folder.
-	•	This fully covers class structure, data relationships, and program logic for Q1–Q4.
+	•	Use this as-is in a Markdown file (Design.md) for your _design folder.
+	•	ASCII diagrams ensure that it will render correctly in any Markdown viewer, even without Mermaid.
+	•	Each Q folder (Q1–Q4) can reference these diagrams in your submission.
 
 ⸻
