@@ -35,6 +35,9 @@ services:
           shell: sh
           run: 'rm .env.local'
   api:
-    project: ./src/api
+    project: ./src/api-core
     language: dotnet
     host: function
+projects:
+  app-expo:
+    path: ./src/app-expo

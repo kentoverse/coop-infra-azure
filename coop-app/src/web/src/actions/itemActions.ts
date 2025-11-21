@@ -1,9 +1,9 @@
 import { Dispatch } from "react";
 import { TodoItem } from "../models";
 import { ItemService } from "../services/itemService";
-import { ActionTypes } from "./common";
+import { ActionTypes } from "../../../app-expo/store/actions/common";
 import config from "../config"
-import { ActionMethod, createPayloadAction, PayloadAction } from "./actionCreators";
+import { ActionMethod, createPayloadAction, PayloadAction } from "../../../app-expo/store/actions/actionCreators";
 
 export interface QueryOptions {
     [key: string]: RegExp | boolean

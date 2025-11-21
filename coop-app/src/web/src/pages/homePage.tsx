@@ -10,7 +10,7 @@ import { ItemActions } from '../actions/itemActions';
 import { ListActions } from '../actions/listActions';
 import { stackItemPadding, stackPadding, titleStackStyles } from '../ux/styles';
 import { useNavigate, useParams } from 'react-router-dom';
-import { bindActionCreators } from '../actions/actionCreators';
+import { bindActionCreators } from '../../../app-expo/store/actions/actionCreators.ts';
 import WithApplicationInsights from '../components/telemetryWithAppInsights.tsx';
 
 const HomePage = () => {

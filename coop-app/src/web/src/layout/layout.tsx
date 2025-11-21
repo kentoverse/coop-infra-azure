@@ -13,7 +13,7 @@ import { ItemActions } from '../actions/itemActions';
 import { TodoItem, TodoList } from '../models';
 import { headerStackStyles, mainStackStyles, rootStackStyles, sidebarStackStyles } from '../ux/styles';
 import TodoItemDetailPane from '../components/todoItemDetailPane';
-import { bindActionCreators } from '../actions/actionCreators';
+import { bindActionCreators } from '../../../app-expo/store/actions/actionCreators';
 
 const Layout: FC = (): ReactElement => {
     const navigate = useNavigate();

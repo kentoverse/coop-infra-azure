@@ -1,5 +1,5 @@
 import { Reducer } from "react";
-import { ActionTypes, TodoActions } from "../actions/common";
+import { ActionTypes, TodoActions } from "../../../app-expo/store/actions/common";
 import { TodoItem } from "../models"
 
 export const selectedItemReducer: Reducer<TodoItem | undefined, TodoActions> = (state: TodoItem | undefined, action: TodoActions): TodoItem | undefined => {

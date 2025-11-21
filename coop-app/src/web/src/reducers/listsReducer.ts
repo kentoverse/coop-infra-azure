@@ -1,5 +1,5 @@
 import { Reducer } from "react";
-import { ActionTypes, TodoActions } from "../actions/common";
+import { ActionTypes, TodoActions } from "../../../app-expo/store/actions/common";
 import { TodoList } from "../models"
 
 export const listsReducer: Reducer<TodoList[], TodoActions> = (state: TodoList[], action: TodoActions): TodoList[] => {

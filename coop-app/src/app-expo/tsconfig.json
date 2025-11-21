@@ -1,0 +1,24 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "node16",
+    "jsx": "react-native", // <-- important for React Native / Expo
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "ignoreDeprecations": "6.0",
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js"
+  ]
+}
+

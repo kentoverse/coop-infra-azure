@@ -1,5 +1,5 @@
-import * as itemActions from './itemActions';
-import * as listActions from './listActions';
+import * as itemActions from '../../../web/src/actions/itemActions';
+import * as listActions from '../../../web/src/actions/listActions';
 
 export enum ActionTypes {
     LOAD_TODO_LISTS = "LOAD_TODO_LISTS",
