@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+    <UserSecretsId>b2a64650-cdf4-4442-b70f-19541a5f2f9d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add package references here if needed -->
+    <!--<PackageReference Include="Some.Package" Version="1.2.3" />-->
+  </ItemGroup>
+
+  <!-- No explicit Compile includes: SDK will include all *.cs files by default -->
+</Project>

@@ -1,0 +1,26 @@
+            ┌───────────────────────────┐
+            │       Expo App (TS)       │
+            │  - React Native screens   │
+            │  - Navigation & UI       │
+            └────────────┬────────────┘
+                         │ HTTPS / REST API
+                         ▼
+            ┌───────────────────────────┐
+            │    MCP Server (C#)        │
+            │  - Hosted in Azure        │
+            │    Container Apps         │
+            │  - Handles user sessions  │
+            │  - RAG query orchestration│
+            │  - Custom API calls       │
+            └───────┬─────────┬────────┘
+                    │         │
+       ┌────────────┘         └────────────┐
+       │                                  │
+       ▼                                  ▼
+┌───────────────┐                  ┌───────────────┐
+│  Vector DB /  │                  │ Azure OpenAI  │
+│  RAG Storage  │                  │   Service     │
+│  - Pinecone   │                  │ - LLM / GPT  │
+│  - Cosmos DB  │                  │ - Embeddings │
+│  - PostgreSQL │                  └───────────────┘
+└───────────────┘
