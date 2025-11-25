@@ -9,7 +9,8 @@
       "components/*": ["./components/*"]
     },
     "types": ["jest"],
-    "ignoreDeprecations": "6.0"
+    "ignoreDeprecations": "6.0",
+    "lib": ["ES2021", "DOM"]
   },
   "include": [
     "**/*.ts",

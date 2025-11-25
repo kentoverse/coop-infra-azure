@@ -8,10 +8,14 @@
     "androiid": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "build": "eas build --profile production --platform all"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
+    "@microsoft/applicationinsights-common": "^3.3.10",
+    "@microsoft/applicationinsights-react-js": "^19.3.8",
+    "@microsoft/applicationinsights-web": "^3.3.10",
     "@react-native/typescript-config": "^0.82.1",
     "@react-navigation/bottom-tabs": "^7.4.0",
     "@react-navigation/elements": "^2.6.3",
@@ -31,6 +35,7 @@
     "expo-symbols": "~1.0.7",
     "expo-system-ui": "~6.0.8",
     "expo-web-browser": "~15.0.9",
+    "history": "^5.3.0",
     "jest": "^30.2.0",
     "metro-react-native-babel-preset": "^0.77.0",
     "react": "19.1.0",
@@ -41,13 +46,14 @@
     "react-native-reanimated": "~4.1.1",
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",
-    "react-native-web": "~0.21.0",
+    "react-native-web": "^0.21.2",
     "react-native-worklets": "0.5.1",
     "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@lottiefiles/dotlottie-react-native": "^0.7.1",
     "@types/react": "~19.1.0",
+    "@types/react-native-web": "^0.19.2",
     "babel-plugin-module-resolver": "^5.0.2",
     "eslint": "^9.25.0",
     "eslint-config-expo": "~10.0.0",
